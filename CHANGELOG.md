@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/KosteQ314/kstq/compare/v0.0.1...v0.0.2) (2025-08-09)
+
+
+### Features
+
+* added basic discord bot integration elements ([6c463dd](https://github.com/KosteQ314/kstq/commit/6c463ddc7aad0f642f5b3ea0d9dc012c96e69c28))
+
+
+### Bug Fixes
+
+* index file fromat fixed ([304419b](https://github.com/KosteQ314/kstq/commit/304419b933cf196766e6a918c09c327e6676744b))
+* removed error from index.js ([8e70658](https://github.com/KosteQ314/kstq/commit/8e706587b0b2f4a9897bb4b4b500b28fed550475))
+
 ### 0.0.1 (2025-08-09)
 
 
