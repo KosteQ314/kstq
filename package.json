@@ -1,0 +1,11 @@
+{
+  "name": "kstq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KosteQ314/kstq",
+  "author": "kosteq <76442169+KosteQ314@users.noreply.github.com>",
+  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
