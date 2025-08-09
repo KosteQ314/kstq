@@ -4,8 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/KosteQ314/kstq",
   "author": "kosteq <76442169+KosteQ314@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
   "scripts": {
+    "start": "node index.js",
+    "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }
