@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/KosteQ314/kstq/compare/v0.0.2...v0.0.3) (2025-08-10)
+
+
+### Features
+
+* multiple commands and command detecting system ([ef6d1b1](https://github.com/KosteQ314/kstq/commit/ef6d1b1390d6eabc4ce21790b477206f99662937))
+* slash command registration ([9d3edc9](https://github.com/KosteQ314/kstq/commit/9d3edc99cbc4fa269a665e3af1dd3eef4a4b3a4f))
+
 ### [0.0.2](https://github.com/KosteQ314/kstq/compare/v0.0.1...v0.0.2) (2025-08-09)
 
 
