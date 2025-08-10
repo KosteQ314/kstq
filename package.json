@@ -6,9 +6,10 @@
   "author": "kosteq <76442169+KosteQ314@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
+    "test": "node test.js",
+    "deploy": "node deploy-commands.js",
     "start": "node index.js",
-    "release": "standard-version",
-    "test": "node test.js"
+    "release": "standard-version"
   },
   "devDependencies": {
     "standard-version": "^9.5.0"
