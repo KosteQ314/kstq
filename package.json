@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node index.js",
     "release": "standard-version",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "devDependencies": {
     "standard-version": "^9.5.0"
