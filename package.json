@@ -1,6 +1,6 @@
 {
     "name": "kstq",
-    "version": "0.0.0",
+    "version": "0.0.0-alpha",
     "description": "Simple Discord bot made in .js",
     "main": "index.js",
     "scripts": {
@@ -16,7 +16,6 @@
             "onFail": "download"
         }
     },
-    "type": "module",
     "dependencies": {
         "discord.js": "^14.26.4"
     }
