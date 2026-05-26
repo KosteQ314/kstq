@@ -3,12 +3,19 @@ const { SlashCommandBuilder } = require("discord.js");
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("user")
-        .setDescription("Provides information about the user."),
+        .setDescription("Provides information about the user.")
+        .addUserOption((option) =>
+            option
+                .setName("user")
+                .setDescription("The user to provide information about"),
+        ),
     async execute(interaction) {
-        // interaction.user is the object representing the User who ran the command
+        const user = interaction.options.getUser("user") ?? interaction.user;
+
+        // user is the object representing the user who's information we want to retrieve
         // interaction.member is the GuildMember object, which represents the user in the specific guild
         await interaction.reply(
-            `This command was run by ${interaction.user.username}, who joined on ${interaction.member.joinedAt}.`,
+            `This command shows information about ${user}, who joined on ${interaction.member.joinedAt}.`,
         );
     },
 };

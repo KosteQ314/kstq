@@ -7,4 +7,16 @@
 
 ## Description
 
-## Usage
+## Commands
+
+### Utility
+- ping - responds with Pong!
+- user - shows information about the specified user
+- echo - sends the inputed message in the chosen channel
+
+### Moderation
+- ban - bans the specified user from the server
+- kick - kicks the specified user from the server
+
+### Fun
+- gif(WIP) - sends a random GIF from Giphy
