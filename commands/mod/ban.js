@@ -45,7 +45,7 @@ module.exports = {
         // Ban the user
         await member.ban({ reason });
         await interaction.reply({
-            content: `Successfully banned ${user.tag} for: ${reason}`,
+            content: `Successfully banned ${user} for: ${reason}`,
             ephemeral: true,
         });
     },
