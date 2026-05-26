@@ -16,6 +16,7 @@
 
 ### Moderation
 - ban - bans the specified user from the server
+- kick - kicks the specified user from the server
 
 ### Fun
 - gif(WIP) - sends a random GIF from Giphy
