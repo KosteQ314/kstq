@@ -12,7 +12,7 @@ module.exports = {
     async execute(interaction) {
         const user = interaction.options.getUser("user") ?? interaction.user;
 
-        // interaction.user is the object representing the User who ran the command
+        // user is the object representing the user who's information we want to retrieve
         // interaction.member is the GuildMember object, which represents the user in the specific guild
         await interaction.reply(
             `This command shows information about ${user}, who joined on ${interaction.member.joinedAt}.`,
