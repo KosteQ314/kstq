@@ -7,4 +7,7 @@
 
 ## Description
 
-## Usage
+## Commands
+- ping - responds with Pong!
+- user - shows information about the user
+- echo - sends the inputed message in the chosen channel
